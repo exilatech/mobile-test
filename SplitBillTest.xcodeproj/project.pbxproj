@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		04CE94F420F5DBCA00178363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE94F320F5DBCA00178363 /* AppDelegate.swift */; };
-		04CE94F620F5DBCA00178363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE94F520F5DBCA00178363 /* ViewController.swift */; };
+		04CE94F620F5DBCA00178363 /* TotalAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE94F520F5DBCA00178363 /* TotalAmountViewController.swift */; };
 		04CE94F920F5DBCA00178363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE94F720F5DBCA00178363 /* Main.storyboard */; };
-		04CE94FC20F5DBCA00178363 /* SplitBillTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CE94FA20F5DBCA00178363 /* SplitBillTest.xcdatamodeld */; };
 		04CE94FE20F5DBCD00178363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE94FD20F5DBCD00178363 /* Assets.xcassets */; };
 		04CE950120F5DBCD00178363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE94FF20F5DBCD00178363 /* LaunchScreen.storyboard */; };
 		04CE950C20F5DBCD00178363 /* SplitBillTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE950B20F5DBCD00178363 /* SplitBillTestTests.swift */; };
 		04CE951720F5DBCD00178363 /* SplitBillTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE951620F5DBCD00178363 /* SplitBillTestUITests.swift */; };
+		04CE952920F5EA5B00178363 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE952820F5EA5B00178363 /* ThemeManager.swift */; };
+		04CE952B20F5EC4000178363 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE952A20F5EC4000178363 /* Theme.swift */; };
+		04CE952D20F60C7400178363 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE952C20F60C7400178363 /* AppSettings.swift */; };
+		04CE952F20F616BC00178363 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE952E20F616BC00178363 /* DetailViewModel.swift */; };
+		04CE953620F6172F00178363 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE953520F6172E00178363 /* DetailViewController.swift */; };
+		04CE953A20F6360F00178363 /* TotalAmountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE953920F6360F00178363 /* TotalAmountViewModel.swift */; };
+		04CE953C20F7283700178363 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE953B20F7283700178363 /* TextField+Extension.swift */; };
+		04CE953F20F7291400178363 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE953E20F7291400178363 /* PickerView.swift */; };
+		04CE954120F7295000178363 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE954020F7295000178363 /* ViewController+Extension.swift */; };
+		04CE954420F72C0A00178363 /* PickerView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE954320F72C0A00178363 /* PickerView+Extension.swift */; };
+		04CE954620F73C1200178363 /* Other+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE954520F73C1200178363 /* Other+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +47,8 @@
 /* Begin PBXFileReference section */
 		04CE94F020F5DBCA00178363 /* SplitBillTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitBillTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE94F320F5DBCA00178363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04CE94F520F5DBCA00178363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CE94F520F5DBCA00178363 /* TotalAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalAmountViewController.swift; sourceTree = "<group>"; };
 		04CE94F820F5DBCA00178363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04CE94FB20F5DBCA00178363 /* SplitBillTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SplitBillTest.xcdatamodel; sourceTree = "<group>"; };
 		04CE94FD20F5DBCD00178363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CE950020F5DBCD00178363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CE950220F5DBCD00178363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		04CE951220F5DBCD00178363 /* SplitBillTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitBillTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE951620F5DBCD00178363 /* SplitBillTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillTestUITests.swift; sourceTree = "<group>"; };
 		04CE951820F5DBCD00178363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE952820F5EA5B00178363 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		04CE952A20F5EC4000178363 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		04CE952C20F60C7400178363 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		04CE952E20F616BC00178363 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		04CE953520F6172E00178363 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = SplitBillTest/view/controllers/DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		04CE953920F6360F00178363 /* TotalAmountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalAmountViewModel.swift; sourceTree = "<group>"; };
+		04CE953B20F7283700178363 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		04CE953E20F7291400178363 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		04CE954020F7295000178363 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		04CE954320F72C0A00178363 /* PickerView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PickerView+Extension.swift"; sourceTree = "<group>"; };
+		04CE954520F73C1200178363 /* Other+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Other+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				04CE94F320F5DBCA00178363 /* AppDelegate.swift */,
-				04CE94F520F5DBCA00178363 /* ViewController.swift */,
-				04CE94F720F5DBCA00178363 /* Main.storyboard */,
-				04CE94FD20F5DBCD00178363 /* Assets.xcassets */,
-				04CE94FF20F5DBCD00178363 /* LaunchScreen.storyboard */,
-				04CE950220F5DBCD00178363 /* Info.plist */,
-				04CE94FA20F5DBCA00178363 /* SplitBillTest.xcdatamodeld */,
+				04CE953120F616CE00178363 /* view */,
+				04CE953020F616C300178363 /* viewmodel */,
+				04CE952420F5E0C600178363 /* library */,
+				04CE954B20F74D1600178363 /* resources */,
+				04CE954D20F74DFD00178363 /* support */,
 			);
 			path = SplitBillTest;
 			sourceTree = "<group>";
@@ -126,6 +145,105 @@
 				04CE951820F5DBCD00178363 /* Info.plist */,
 			);
 			path = SplitBillTestUITests;
+			sourceTree = "<group>";
+		};
+		04CE952420F5E0C600178363 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				04CE954A20F74D0700178363 /* utils */,
+				04CE953D20F7284200178363 /* extensions */,
+				04CE952720F5EA2600178363 /* theme */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		04CE952720F5EA2600178363 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				04CE952820F5EA5B00178363 /* ThemeManager.swift */,
+				04CE952A20F5EC4000178363 /* Theme.swift */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		04CE953020F616C300178363 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				04CE952E20F616BC00178363 /* DetailViewModel.swift */,
+				04CE953920F6360F00178363 /* TotalAmountViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		04CE953120F616CE00178363 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04CE954920F74C6000178363 /* storyboards */,
+				04CE954220F7298400178363 /* custom */,
+				04CE953220F616D800178363 /* controllers */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04CE953220F616D800178363 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CE953520F6172E00178363 /* DetailViewController.swift */,
+				04CE94F520F5DBCA00178363 /* TotalAmountViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		04CE953D20F7284200178363 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04CE954020F7295000178363 /* ViewController+Extension.swift */,
+				04CE954320F72C0A00178363 /* PickerView+Extension.swift */,
+				04CE954520F73C1200178363 /* Other+Extensions.swift */,
+				04CE953B20F7283700178363 /* TextField+Extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		04CE954220F7298400178363 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				04CE953E20F7291400178363 /* PickerView.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		04CE954920F74C6000178363 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04CE94FF20F5DBCD00178363 /* LaunchScreen.storyboard */,
+				04CE94F720F5DBCA00178363 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		04CE954A20F74D0700178363 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				04CE952C20F60C7400178363 /* AppSettings.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		04CE954B20F74D1600178363 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				04CE94FD20F5DBCD00178363 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		04CE954D20F74DFD00178363 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				04CE950220F5DBCD00178363 /* Info.plist */,
+			);
+			name = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +377,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CE94FC20F5DBCA00178363 /* SplitBillTest.xcdatamodeld in Sources */,
-				04CE94F620F5DBCA00178363 /* ViewController.swift in Sources */,
+				04CE952F20F616BC00178363 /* DetailViewModel.swift in Sources */,
+				04CE952920F5EA5B00178363 /* ThemeManager.swift in Sources */,
+				04CE954420F72C0A00178363 /* PickerView+Extension.swift in Sources */,
+				04CE953C20F7283700178363 /* TextField+Extension.swift in Sources */,
+				04CE954120F7295000178363 /* ViewController+Extension.swift in Sources */,
+				04CE952D20F60C7400178363 /* AppSettings.swift in Sources */,
+				04CE952B20F5EC4000178363 /* Theme.swift in Sources */,
+				04CE94F620F5DBCA00178363 /* TotalAmountViewController.swift in Sources */,
+				04CE954620F73C1200178363 /* Other+Extensions.swift in Sources */,
+				04CE953F20F7291400178363 /* PickerView.swift in Sources */,
 				04CE94F420F5DBCA00178363 /* AppDelegate.swift in Sources */,
+				04CE953620F6172F00178363 /* DetailViewController.swift in Sources */,
+				04CE953A20F6360F00178363 /* TotalAmountViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E87YD67F2;
 				INFOPLIST_FILE = SplitBillTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +584,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E87YD67F2;
 				INFOPLIST_FILE = SplitBillTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,19 +718,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		04CE94FA20F5DBCA00178363 /* SplitBillTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				04CE94FB20F5DBCA00178363 /* SplitBillTest.xcdatamodel */,
-			);
-			currentVersion = 04CE94FB20F5DBCA00178363 /* SplitBillTest.xcdatamodel */;
-			path = SplitBillTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 04CE94E820F5DBCA00178363 /* Project object */;
 }
